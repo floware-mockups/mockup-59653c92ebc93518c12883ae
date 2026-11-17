@@ -1,0 +1,211 @@
+{
+  "title": "Registro presenze del laboratorio",
+  "description": "Prototipo navigabile per registrare entrate, uscite e attività svolte durante le sessioni di un laboratorio didattico. Include una dashboard, un registro filtrabile e un modulo per aggiungere presenze; tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle presenze e delle attività registrate.",
+      "metrics": [
+        {
+          "label": "Presenze registrate",
+          "value": "24"
+        },
+        {
+          "label": "Sessioni del mese",
+          "value": "8"
+        },
+        {
+          "label": "Presenti oggi",
+          "value": "6"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "21"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "12/06/2025",
+          "Esperimenti di luce",
+          "Lumo",
+          "09:02",
+          "11:30",
+          "Prismi e colori",
+          "Completata"
+        ],
+        [
+          "12/06/2025",
+          "Esperimenti di luce",
+          "Vela",
+          "09:08",
+          "11:28",
+          "Rifrazione",
+          "Completata"
+        ],
+        [
+          "12/06/2025",
+          "Esperimenti di luce",
+          "Nubi",
+          "09:01",
+          "—",
+          "Spettro luminoso",
+          "Presente"
+        ],
+        [
+          "10/06/2025",
+          "Mappe sonore",
+          "Lumo",
+          "14:04",
+          "16:00",
+          "Suoni dell'ambiente",
+          "Completata"
+        ],
+        [
+          "10/06/2025",
+          "Mappe sonore",
+          "Vela",
+          "14:00",
+          "15:55",
+          "Ritmi e sequenze",
+          "Completata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra le presenze per data, sessione, partecipante e stato.",
+      "metrics": [
+        {
+          "label": "Record visibili",
+          "value": "24"
+        },
+        {
+          "label": "Da completare",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "12/06/2025",
+          "Esperimenti di luce",
+          "Lumo",
+          "09:02",
+          "11:30",
+          "Prismi e colori",
+          "Completata"
+        ],
+        [
+          "12/06/2025",
+          "Esperimenti di luce",
+          "Vela",
+          "09:08",
+          "11:28",
+          "Rifrazione",
+          "Completata"
+        ],
+        [
+          "12/06/2025",
+          "Esperimenti di luce",
+          "Nubi",
+          "09:01",
+          "—",
+          "Spettro luminoso",
+          "Presente"
+        ],
+        [
+          "12/06/2025",
+          "Esperimenti di luce",
+          "Riva",
+          "09:11",
+          "—",
+          "Osservazione guidata",
+          "Presente"
+        ],
+        [
+          "10/06/2025",
+          "Mappe sonore",
+          "Lumo",
+          "14:04",
+          "16:00",
+          "Suoni dell'ambiente",
+          "Completata"
+        ],
+        [
+          "10/06/2025",
+          "Mappe sonore",
+          "Vela",
+          "14:00",
+          "15:55",
+          "Ritmi e sequenze",
+          "Completata"
+        ],
+        [
+          "10/06/2025",
+          "Mappe sonore",
+          "Nubi",
+          "14:07",
+          "15:58",
+          "Paesaggio sonoro",
+          "Completata"
+        ],
+        [
+          "05/06/2025",
+          "Piccoli ecosistemi",
+          "Riva",
+          "09:05",
+          "11:27",
+          "Osservazione di semi",
+          "Completata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-presenza",
+      "title": "Aggiungi presenza",
+      "description": "Registra la partecipazione a una sessione e l'attività svolta.",
+      "metrics": [],
+      "columns": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ]
+    }
+  ]
+}
